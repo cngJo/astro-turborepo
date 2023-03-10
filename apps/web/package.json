@@ -9,12 +9,16 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint src",
-    "lint:write": "eslint src --fix"
+    "lint:write": "eslint src --fix",
+    "test:e2e": "playwright test tests/e2e"
   },
   "dependencies": {
     "@astrojs/vue": "^2.1.0",
     "astro": "^2.0.18",
     "ui": "*",
     "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
   }
 }

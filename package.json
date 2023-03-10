@@ -10,7 +10,9 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "lint:write": "turbo run lint:write",
+		"test": "turbo run test",
+    "test:e2e": "turbo run test:e2e"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
