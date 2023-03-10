@@ -1,27 +1,20 @@
 {
   "name": "web",
-  "version": "0.0.0",
-  "private": true,
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint src",
+    "lint:write": "eslint src --fix"
   },
   "dependencies": {
-    "next": "^13.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "*"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "eslint": "7.32.0",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "typescript": "^4.5.3"
+    "@astrojs/vue": "^2.1.0",
+    "astro": "^2.0.18",
+    "ui": "*",
+    "vue": "^3.2.47"
   }
 }

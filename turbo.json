@@ -4,9 +4,15 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**"]
     },
     "lint": {
+      "outputs": []
+    },
+    "lint:write": {
+      "outputs": ["src/**"]
+    },
+		"test": {
       "outputs": []
     },
     "dev": {
