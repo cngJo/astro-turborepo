@@ -12,6 +12,7 @@ coverage
 .next/
 out/
 build
+storybook-static
 
 # misc
 .DS_Store
